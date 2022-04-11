@@ -1,0 +1,19 @@
+1. Implementar una clase Sorted que tenga el método de ordenamiento asignado al grupo, el mismo que
+debe ser genérico y debe recibir como parámetros el arreglo cuyos elementos deberán ser ordenados.
+Este método debe poder ser utilizado por cualquier tipo de dato no primitivo (desde Integer, String, hasta
+tipos creados por el usuario). A efecto de evidenciar la aplicabilidad del método, los miembros del grupo
+deberán crear por lo menos dos tipos de datos, con los cuales realizarán las pruebas necesarias que
+demuestren el carácter genérico del método y los resultados del orden establecido por algún criterio.
+
+2. La clase Sorted adémas debe tener un método genérico listAll que permita mostrar los elementos de un
+arreglo de cualquier tipo que se le vaya a enviar como parámetro.
+
+3. La clase Sorted también debe contar con un método genérico de orden logarítmico denominado
+searchItem que busque un determinado elemento en un arreglo. Tanto el elemento como el arreglo son
+del mismo tipo. Si el elemento existe en el arreglo se debe retornar el propio elemento, de lo contrario
+retornar null. Este método debe recibir como parámetros el arreglo y el elemento a buscar.
+
+4. El grupo de trabajo está en la libertad de implementar cualquier otro método que permita la manipulación
+de los elementos con los cuales se trabajará (por ejemplo, ingreso de los elementos).
+
+Restricciones de la implementación: No debe utilizar para ningún efecto la clase ArrayList.
